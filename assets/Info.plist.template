@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>               <string>CleanSpace</string>
+    <key>CFBundleDisplayName</key>        <string>CleanSpace</string>
+    <key>CFBundleExecutable</key>         <string>clean-uninstall-gui</string>
+    <!-- À remplacer par votre identifiant (ex. io.github.<utilisateur>.cleanspace) -->
+    <key>CFBundleIdentifier</key>         <string>com.example.cleanspace</string>
+    <key>CFBundleIconFile</key>           <string>CleanSpace</string>
+    <key>CFBundlePackageType</key>        <string>APPL</string>
+    <key>CFBundleVersion</key>            <string>__VERSION__</string>
+    <key>CFBundleShortVersionString</key> <string>__VERSION__</string>
+    <key>LSMinimumSystemVersion</key>     <string>11.0</string>
+    <key>LSApplicationCategoryType</key>  <string>public.app-category.utilities</string>
+    <key>NSHighResolutionCapable</key>    <true/>
+    <key>NSPrincipalClass</key>           <string>NSApplication</string>
+</dict>
+</plist>

@@ -1,0 +1,366 @@
+   0.295698216s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean_uninstall_core"}: cargo::core::compiler::fingerprint: fingerprint error for clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files)/Check { test: false }/TargetInner { ..: lib_target("clean_uninstall_core", ["lib"], "/Users/dimitri/Downloads/files/src/lib.rs", Edition2021) }
+   0.295748073s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean_uninstall_core"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/clean-uninstall-13ea07ff0da7f3c3/lib-clean_uninstall_core`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+   0.307293816s  INFO prepare_target{force=false package_id=eframe v0.28.1 target="eframe"}: cargo::core::compiler::fingerprint: fingerprint error for eframe v0.28.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("eframe", ["lib"], "/Users/dimitri/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/eframe-0.28.1/src/lib.rs", Edition2021) }
+   0.307315739s  INFO prepare_target{force=false package_id=eframe v0.28.1 target="eframe"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/eframe-699cd821969e1510/lib-eframe`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+  19: <unknown>
+   0.311643662s  INFO prepare_target{force=false package_id=egui-winit v0.28.1 target="egui_winit"}: cargo::core::compiler::fingerprint: fingerprint error for egui-winit v0.28.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("egui_winit", ["lib"], "/Users/dimitri/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/egui-winit-0.28.1/src/lib.rs", Edition2021) }
+   0.311664300s  INFO prepare_target{force=false package_id=egui-winit v0.28.1 target="egui_winit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/egui-winit-a817f2fd9d7a9330/lib-egui_winit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   0.312246366s  INFO prepare_target{force=false package_id=accesskit_winit v0.16.1 target="accesskit_winit"}: cargo::core::compiler::fingerprint: fingerprint error for accesskit_winit v0.16.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("accesskit_winit", ["lib"], "/Users/dimitri/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/accesskit_winit-0.16.1/src/lib.rs", Edition2021) }
+   0.312257894s  INFO prepare_target{force=false package_id=accesskit_winit v0.16.1 target="accesskit_winit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/accesskit_winit-9d84e4db50a85c38/lib-accesskit_winit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+  21: <unknown>
+   0.313169605s  INFO prepare_target{force=false package_id=winit v0.29.15 target="winit"}: cargo::core::compiler::fingerprint: fingerprint error for winit v0.29.15/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("winit", ["lib"], "/Users/dimitri/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/winit-0.29.15/src/lib.rs", Edition2021) }
+   0.313181093s  INFO prepare_target{force=false package_id=winit v0.29.15 target="winit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/winit-e134ecf76fef5c7e/lib-winit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+  22: <unknown>
+   0.314363453s  INFO prepare_target{force=false package_id=icrate v0.0.4 target="icrate"}: cargo::core::compiler::fingerprint: fingerprint error for icrate v0.0.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("icrate", ["lib"], "/Users/dimitri/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/icrate-0.0.4/src/lib.rs", Edition2021) }
+   0.314377181s  INFO prepare_target{force=false package_id=icrate v0.0.4 target="icrate"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/icrate-3f9c62db89e8c3ba/lib-icrate`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+  23: <unknown>
+   0.322363187s  INFO prepare_target{force=false package_id=glutin v0.31.3 target="glutin"}: cargo::core::compiler::fingerprint: fingerprint error for glutin v0.31.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("glutin", ["lib"], "/Users/dimitri/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/glutin-0.31.3/src/lib.rs", Edition2021) }
+   0.322380205s  INFO prepare_target{force=false package_id=glutin v0.31.3 target="glutin"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/glutin-e35f63ee1e8e8f10/lib-glutin`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   0.323201293s  INFO prepare_target{force=false package_id=glutin-winit v0.4.2 target="glutin_winit"}: cargo::core::compiler::fingerprint: fingerprint error for glutin-winit v0.4.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("glutin_winit", ["lib"], "/Users/dimitri/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/glutin-winit-0.4.2/src/lib.rs", Edition2021) }
+   0.323214306s  INFO prepare_target{force=false package_id=glutin-winit v0.4.2 target="glutin_winit"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/glutin-winit-81ae9a5997ac9ad3/lib-glutin_winit`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+  20: <unknown>
+   0.326254938s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean_uninstall_core"}: cargo::core::compiler::fingerprint: fingerprint error for clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files)/Check { test: true }/TargetInner { ..: lib_target("clean_uninstall_core", ["lib"], "/Users/dimitri/Downloads/files/src/lib.rs", Edition2021) }
+   0.326267175s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean_uninstall_core"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/clean-uninstall-09a9298f102ff8c3/test-lib-clean_uninstall_core`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+   0.326965591s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean-uninstall"}: cargo::core::compiler::fingerprint: fingerprint error for clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files)/Check { test: false }/TargetInner { name: "clean-uninstall", doc: true, ..: with_path("/Users/dimitri/Downloads/files/src/bin/cli.rs", Edition2021) }
+   0.326981355s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean-uninstall"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/clean-uninstall-318d147eb979b452/bin-clean-uninstall`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+   0.327573030s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean-uninstall"}: cargo::core::compiler::fingerprint: fingerprint error for clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files)/Check { test: true }/TargetInner { name: "clean-uninstall", doc: true, ..: with_path("/Users/dimitri/Downloads/files/src/bin/cli.rs", Edition2021) }
+   0.327583352s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean-uninstall"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/clean-uninstall-ad0ec9c4c232a97f/test-bin-clean-uninstall`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+   0.328183258s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean-uninstall-gui"}: cargo::core::compiler::fingerprint: fingerprint error for clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files)/Check { test: false }/TargetInner { name: "clean-uninstall-gui", doc: true, ..: with_path("/Users/dimitri/Downloads/files/src/bin/gui.rs", Edition2021) }
+   0.328193528s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean-uninstall-gui"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/clean-uninstall-f3ae2fc0a9d00a1a/bin-clean-uninstall-gui`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+   0.328756741s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean-uninstall-gui"}: cargo::core::compiler::fingerprint: fingerprint error for clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files)/Check { test: true }/TargetInner { name: "clean-uninstall-gui", doc: true, ..: with_path("/Users/dimitri/Downloads/files/src/bin/gui.rs", Edition2021) }
+   0.328766642s  INFO prepare_target{force=false package_id=clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files) target="clean-uninstall-gui"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/dimitri/Downloads/files/target/debug/.fingerprint/clean-uninstall-f934c8c2717d7166/test-bin-clean-uninstall-gui`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: <std::backtrace::Backtrace>::create
+   1: <std::backtrace::Backtrace>::capture
+   2: cargo_util::paths::read_bytes
+   3: cargo_util::paths::read
+   4: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   5: cargo::core::compiler::fingerprint::prepare_target
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+  18: <unknown>
+    Checking icrate v0.0.4
+    Checking winit v0.29.15
+    Checking glutin v0.31.3
+    Checking accesskit_winit v0.16.1
+    Checking glutin-winit v0.4.2
+    Checking egui-winit v0.28.1
+    Checking eframe v0.28.1
+    Checking clean-uninstall v0.1.0 (/Users/dimitri/Downloads/files)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 15.66s
