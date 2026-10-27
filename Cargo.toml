@@ -2,6 +2,8 @@
 name = "clean-uninstall"
 version = "0.1.0"
 edition = "2021"
+license = "Apache-2.0"
+description = "CleanSpace : désinstalle proprement les apps macOS, nettoie caches et logs, infos système"
 
 [lib]
 name = "clean_uninstall_core"

@@ -12,7 +12,7 @@ CleanSpace retrouve tout ça et le supprime, en toute transparence.
 [![Rust](https://img.shields.io/badge/Rust-2021-orange?logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Platform](https://img.shields.io/badge/macOS-supported-000000?logo=apple&logoColor=white)](#-prérequis)
 [![GUI](https://img.shields.io/badge/GUI-egui-blue)](https://github.com/emilk/egui)
-[![License](https://img.shields.io/badge/license-MIT-green)](#-licence)
+[![License](https://img.shields.io/badge/license-Apache%202.0-green)](#-licence)
 
 </div>
 
@@ -251,7 +251,7 @@ Les contributions sont les bienvenues !
 
 ## 📄 Licence
 
-Distribué sous licence **MIT**. Voir le fichier `LICENSE` pour plus d'informations.
+Distribué sous licence **Apache 2.0**. Voir le fichier `LICENSE` pour plus d'informations.
 
 ---
 
